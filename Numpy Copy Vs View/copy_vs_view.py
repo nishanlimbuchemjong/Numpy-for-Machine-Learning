@@ -20,5 +20,8 @@ print(f"Original np1: {np1}")   # output: Original np1: [50  1  2  3  4  5  6  7
 print(f"Original np3: {np3}")   # output: Original np2: [ 50  1  2  3  4  5  6  7  8  9 10]
 
 np1[0] = 0
-print(f"change np1: {np1}")   # output: Original np1: [50  1  2  3  4  5  6  7  8  9 10]
+print(f"change np1: {np1}")   # output: change np1: [ 0  1  2  3  4  5  6  7  8  9 10]
 print(f"Original np3: {np3}")   # output: Original np2: [ 50  1  2  3  4  5  6  7  8  9 10]
+
+# the above output is not same because the copy jsut copy the array but when an update is done then the original does not change
+

@@ -27,4 +27,7 @@ np2 = np.array([[1, 2, 3, 4, 5],[6, 7, 8, 9, 10]])
 print(np2[1, 2])    # output: 8
 
 # slice a 2-d array
-print(np2[0:3, 1:4])
+print(np2[0:3, 1:4])    
+# output: 
+# [[2 3 4]
+#  [7 8 9]]

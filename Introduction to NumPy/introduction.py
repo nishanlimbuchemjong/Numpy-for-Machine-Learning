@@ -61,7 +61,7 @@ np8 = np.array(lst)
 print(np8)  # output: [1 2 3 4 5 6]
 
 # Accessing any element in numpy is same as accessing any element in python list
-print(np8[0])
-print(np8[0:4])
-print(np8[-1])
-print(np8[::-1])
+print(np8[0])   # output: 1
+print(np8[0:4])   # output: [1 2 3 4]
+print(np8[-1])   # output: 6
+print(np8[::-1])   # output: [6 5 4 3 2 1]
