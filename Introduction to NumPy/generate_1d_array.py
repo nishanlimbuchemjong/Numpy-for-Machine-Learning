@@ -1,3 +1,5 @@
+# Q) Generate a 1D array of 10 evenly spaced numbers between 0 and 1.
+
 import numpy as np
 
 # generating 1-D array of 10 evenly spaced numbers between 0 and 1

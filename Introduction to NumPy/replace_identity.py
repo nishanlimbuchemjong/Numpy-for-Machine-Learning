@@ -1,3 +1,5 @@
+# Q) Create a 5x5 identity matrix and replace the diagonal elements with 7.
+
 import numpy as np
 
 # creating 5 X 5 identity matrix
