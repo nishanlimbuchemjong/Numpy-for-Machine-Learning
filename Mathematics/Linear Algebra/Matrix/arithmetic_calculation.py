@@ -11,3 +11,11 @@ print(addition)
 # Output:
 #     [[ 8 10 12]
 #     [ 5  7  9]]
+
+# calculating the subtraction of two matrices
+subtraction = np.subtract(matrix_a, matrix_b)
+print(subtraction)
+# output:
+#     [[-6 -6 -6]
+#     [ 3  3  3]]
+
