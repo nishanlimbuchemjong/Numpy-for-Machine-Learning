@@ -19,3 +19,11 @@ print(np.min(stats, axis=1))    # output: [1 4]
 # finding maximum value of 1 row and 2nd row
 print(np.max(stats, axis=1))    # output: [3 6]
 
+# sum of all elements
+print(np.sum(stats))    # output: 21
+
+# sum of all elements of 1st and 2nd row only using axis=0
+print(np.sum(stats, axis=0))    # output: [5 7 9]
+
+
+
