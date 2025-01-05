@@ -20,3 +20,10 @@ print(result)
 # Output:
 #     [[6. 6.]
 #     [6. 6.]]
+
+
+# finding the determinant
+determinant = np.linalg.det(result)
+    # [[6. 6.]
+    # [6. 6.]]
+print(determinant)  # output: 0.0
