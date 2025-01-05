@@ -19,3 +19,9 @@ print(subtraction)
 #     [[-6 -6 -6]
 #     [ 3  3  3]]
 
+# calculating the multiplication of two matrices
+multiplication = np.multiply(matrix_a, matrix_b)
+print(multiplication)
+# output:
+#     [[ 7 16 27]
+#     [ 4 10 18]]
