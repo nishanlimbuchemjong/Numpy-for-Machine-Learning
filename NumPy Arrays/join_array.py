@@ -41,3 +41,13 @@ arr2 = np.array([6, 7, 8, 9, 10])
 
 res = np.stack((arr1, arr2), axis=0)
 print(res)
+# output:
+#     [[ 1  2  3  4  5]
+#     [ 6  7  8  9 10]]
+
+# merging two arrays using np.hstack() that means on one row
+arr1 = np.array([1, 2, 3, 4, 5])
+arr2 = np.array([6, 7, 8, 9, 10])
+
+res = np.hstack((arr1, arr2))
+print(res)  # output: [ 1  2  3  4  5  6  7  8  9 10]
