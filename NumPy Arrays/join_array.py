@@ -51,3 +51,13 @@ arr2 = np.array([6, 7, 8, 9, 10])
 
 res = np.hstack((arr1, arr2))
 print(res)  # output: [ 1  2  3  4  5  6  7  8  9 10]
+
+# merging two arrays using np.vstack() that means on columns
+arr1 = np.array([1, 2, 3, 4, 5])
+arr2 = np.array([6, 7, 8, 9, 10])
+
+res = np.vstack((arr1, arr2))
+print(res)  
+# output: 
+    # [[ 1  2  3  4  5]
+    # [ 6  7  8  9 10]]
